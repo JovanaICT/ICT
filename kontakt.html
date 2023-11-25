@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+	<html>
+		<head>	
+			<title>Imperial</title>
+			<meta charset="utf-8"/>
+			<link href="favicon.png" type="image/png" rel="shortcut icon" />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+			<link href="style.css" rel="stylesheet" type="text/css"/>			
+		</head>
+		<body>
+			<div id="zaglavlje">
+				<div id="logo">
+					<a href="index.html"><img src="logo.png" alt="Logo"/></a>
+				</div>
+				<div id="navigacija">
+					<ul>
+						<li class="aktivan-link"><a href="index.html">Početna</a></li>
+						<li><a href="o-nama.html">O nama</a></li>
+						<li><a href="clanarine.html">Članarine</a></li>
+						<li><a href="pogodnosti.html">Pogodnosti</a></li>
+						<li><a href="galerija.html">Galerija</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="o-autoru.html">O autoru</a></li>
+					</ul>
+				</div>
+				<div class="cleaner"></div>		
+			</div>
+			<div id="kontakt" class="red">
+				<div class="naslov narandzasta-boja-slova">
+					<h1>Kontakt</h1>
+				</div>
+				<div class="red">
+					<div id="kontakti">
+						<div class="red kontakt-podaci">
+							<i class="zmdi zmdi-phone"></i>
+							<h2>Telefon:</h2>
+							<a href="tel:+381624874567">+381 62 487 45 67</a>
+						</div>
+						<div class="red kontakt-podaci">
+							<i class="zmdi zmdi-email"></i>
+							<h2>Email:</h2>
+							<a href="mailto:imperialgym@gmail.com">imperialgym@gmail.com</a>
+						</div>
+						<div class="red kontakt-podaci">
+							<i class="zmdi zmdi-pin"></i>
+							<h2>Lokacije:</h2>
+							<ul>
+								<li>Rakovica - Stojana Jankovića 5v</li>
+								<li>Zvezdara - Katarine Ambrozić 19</li>
+								<li>Palilula - Dunavska 14</li>
+								</ul>
+						</div>
+						<div class="cleaner"></div>
+					</div>
+					<div class="centriranje">
+						<h2>Postanite član</h2>
+						<form>
+							<div class="forma-red">
+								<div class="forma-kolona-48">
+									<label for="ime">Ime</label>
+									<input type="text"id="ime" placeholder="Milutin"/>
+								</div>
+								<div class="forma-kolona-48 margina-levo-3-5">
+									<label for="prezime">Prezime</label>
+									<input type="text" id="prezime" placeholder="Milanković"/>
+								</div>
+								<div class="cleaner"></div>
+							</div>
+							<div class="forma-red forma-pol">		
+								<input type="radio" name="pol" id="muski" value="M"/>
+								<label for ="muski">Muški</label>
+								<input type="radio" name="pol" id="zenski" value="Ž"/>
+								<label for="zenski">Ženski</label>
+							</div>
+							<div class="forma-red">
+								<label for="adresa">Adresa</label>
+								<input type="text" name="adresa" id="adresa" placeholder="Stojana Jankovića 5"/>
+							</div>
+							<div class="forma-red">
+								<div class="forma-kolona-48">
+									<label for="drzava">Država</label>
+									<input type="text" name="drzava" id="drzava" placeholder="Srbija"/>
+								</div>							
+								<div class="forma-kolona-28 margina-levo-3-5">
+									<label for="opstina">Opština</label>
+									<select name="opstina" id="opstina">
+										<option value="0">Izaberite opštinu</option>
+										<option value="RA">Rakovica</option>
+										<option value="ZV">Zvezdara</option>
+										<option value="PA">Palilula</option>
+										<option value="BA">Banjica</option>
+										<option value="ZE">Zemun</option>							
+									</select>						
+								</div>
+								<div class="forma-kolona-19">
+									<label for="postanskiBroj">Poštanski broj</label>
+									<input type="text" name="postanskiBroj" id="postanskiBroj" placeholder="11000"/>								
+								</div>
+								<div class="cleaner"></div>
+							</div>
+							<div class="forma-red">
+								<input type="button" value="Prijava" id="prijava"/>
+							</div>
+						</form>					
+					</div>						
+				</div>
+			</div>
+			<div id="futer">
+				<div class="centriranje">
+					<div id="copyright">
+						<p>Copyright &copy 2023. </p>
+					</div>
+					<div id="drustvene-mreze">
+						<a href="http://www.facebook.com" target="_blank" rel="noopener"><i class="zmdi zmdi-facebook"></i></a>
+						<a href="http://www.instagram.com" target="_blank" rel="noopener"><i class="zmdi zmdi-instagram"></i></a>
+						<a href="http://www.twitter.com" target="_blank" rel="noopener"><i class="zmdi zmdi-twitter"></i></a>
+					</div>
+					<div id="autor">
+						<p>Designed by <a href="o-autoru.html">Jovana Kijanović</a></p>
+					</div>
+					<div class="cleaner"></div>
+				</div>
+			</div>			
+	</body>
+</html>
+
+

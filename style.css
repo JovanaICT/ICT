@@ -1,0 +1,325 @@
+*{
+	margin:0px;
+	padding:0px;}
+
+#navigacija a{	
+	text-decoration:none;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #a52a2a;
+	color: white;
+}
+#zaglavlje{
+	display: flex;
+}
+#logo{
+	flex-grow: 2;
+flex-basis: 0;
+}
+#navigacija{
+	flex-grow: 7;
+	flex-basis: 0;
+
+}
+body{
+	background:#deb887;
+	font-family: 'Varela Round', sans-serif;
+	color:#0a0a0a;
+}
+ul{
+	list-style-type:none;
+}
+.cleaner{
+	clear:both;
+}
+.centriranje{
+	width: 70%;
+	margin:0px auto;
+}
+#zaglavlje{
+	width:100%;
+	background:#ffffff;
+}
+#zaglavlje ul li a{
+	color:#ffffff;
+}
+#logo{
+	padding-left:1%;
+	float:left;
+	width:12%;
+	
+}
+#logo img{
+	width:70%;
+}
+#navigacija{
+	width:70%;
+	float:right;
+	text-align:right;
+	margin-right:20px;
+	padding: 20px 0px;
+}
+#navigacija ul{
+	margin-top: 6px;
+}
+#navigacija ul li{
+	display: inline-block;
+	margin-left:10px;
+	font-size: 24px;	
+}
+#cover-slika{
+	width:100%;
+	height:1100px;
+	background: url("cover.jpg") no-repeat;
+	background-size: cover;
+}
+#cover-naslov{
+	color: #d1d3d4;
+	text-align: center;
+	padding:18% 35%;
+}
+#cover-naslov h2{
+	font-size: 30px;
+	letter-spacing: 4px;
+	text-shadow: 2px 3px 0px #f15a29;
+}
+.narandzasta-boja-slova{
+	color:#a52a2a;
+}
+.naslov{
+	text-align:center;
+	padding:30px 0px;
+	text-transform: capitalize;
+}
+#o-nama{
+	padding-bottom:4.8%;
+	
+}
+.o-nama-slika{
+	width:28%;
+	float:left;
+	padding-top:1%;
+}
+.o-nama-slika img{
+	width:100%;
+	border-radius:15%;
+}
+#o-nama-tekst{
+	width:40%;
+	text-align:justify;
+	line-height: 27px;
+	font-size:20px;
+	float:left;
+	padding:1% 2%;
+}
+.red{
+	padding-bottom: 30px;
+}
+#clanarine{
+	margin-bottom:7.5%;
+}
+.vrste-clanarina{
+	background:#fff;
+	border-radius: 2%;
+	box-shadow: 3px 0px 3px #666;
+	margin:2% 1%;
+	width:31%;
+	float:left;
+	text-align:left;
+	height:auto;
+}
+.vrste-clanarina h2, h3{
+	text-align:center;
+	padding-top:20px;
+}
+.vrste-clanarina h2{
+	background:#a52a2a;
+	color:#d1d3d4;
+}
+.vrste-clanarina ul li{
+	list-style-type:disc;
+	font-size: 20px;
+	line-height: 55px;
+}
+.vrste-clanarina p{
+	padding-top:2%;
+	font-size: 25px;
+	line-height: 45px;
+}
+.vrste-clanarina h4{
+	font-size:19px;
+	padding:2%;
+}
+.vrste-clanarina p, ul, h4{
+	margin-left:25px;
+}
+#pogodnosti{
+	margin-bottom:7%;
+}
+#pogodnosti-slika{
+	float:left;
+	width:40%;
+}
+#pogodnosti-slika img{
+	width:100%;
+	border-radius:50%;
+	box-shadow: 3px 0px 30px #666;
+	margin-top:20%;
+}
+#podnaslov-pogodnosti{
+	margin-top:1%;
+}
+#pogodnosti-tekst{	
+	float:right;
+	width:26%;
+	text-align:left;	
+	padding:2% 0%;
+}
+#pogodnosti-tekst ul li{
+	list-style-type:disc;
+	font-size: 18px;
+	line-height: 60px;
+}
+.galerija-slike{
+	width:22%;
+	float:left;
+	margin-left:2.3%;
+	margin-bottom:2%;
+}
+.galerija-slike img{
+	width:100%;
+	border-radius:5%;
+}
+.galerija-podnaslov h2{
+	text-align:center;
+}
+.forma-kolona-48{
+	width:48%;
+	float:left;
+}
+.forma-kolona-28{
+	width: 28%;
+	float: left;
+	margin: 0px 1.5%;
+}
+.forma-kolona-19{
+	width: 19%;
+	float: left;
+}
+#kontakt{
+	margin:0px auto;
+	max-width:50%;
+	margin-bottom:8%;
+}
+.kontakt-podaci{
+	padding-top:10px;
+	float:left;
+	width:31%;
+	margin:0px 1%;
+}
+.kontakt-podaci *{
+	float:left;
+	padding-left:2%;
+}
+.kontakt-podaci h2{
+	padding:10px 3%;
+}
+.kontakt-podaci i{
+	font-size:50px;
+	color:#a52a2a;
+}
+.kontakt-podaci a{
+	color:#0a0a0a;
+}
+.centriranje h2, h3{
+	text-align:center;
+	padding-bottom:20px;
+	font-size:28px;
+	text-transform:capitalize;
+}
+#kontakt input[type="text"], #kontakt select {
+	display: block;
+	width: 100%;
+	border: 1px solid #ced4da;
+	border-radius: 3px;
+	padding: 5px;
+	margin-bottom: 2px;
+	font-size:15px;
+}
+#kontakt label {
+	font-size: 18px;
+	margin-bottom: 2px;
+	display: block;
+}
+::placeholder {
+	color: #f15a29;
+	padding-left: 10px;
+}
+#kontakt input[type="button"] {
+	border: none;
+	background-color: #a52a2a;
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin:0px auto;
+}
+#kontakt .forma-pol label {
+	display: inline;
+	margin-right: 10px;
+}
+.forma-red {
+	margin-bottom: 15px;
+}
+.margina-levo-3-5{
+	margin-left:3.5%;
+}
+#slika-autora{
+	float:left;
+	width:36%;
+}
+#slika-autora img{
+	width:100%;
+	border-radius:5%;
+}
+#tekst-o-autoru{
+	width:58%;
+	float:right;
+	padding-right:3%;
+}
+.padding-top-30{
+	padding-top:30px;
+}
+#tekst-o-autoru p{
+	float:left;
+	text-align:justify;
+	line-height: 27px;
+	font-size:20px;
+}
+#futer{
+	background-color:#ffdead;
+	padding:14px 0px;
+}
+#futer p, a, i{
+	color:#a52a2a;
+}
+#copyright{
+	float:left;
+	width:30%;
+	
+}
+#drustvene-mreze{
+	float:left;
+	width:20%;
+	margin:0px 5%;
+	text-align:right;
+	font-size:20px;
+}
+#drustvene-mreze i{
+	padding:0px 10px;
+}
+#autor{
+	float:right;
+	text-align:right;
+	padding-right:3%;
+	
+}
